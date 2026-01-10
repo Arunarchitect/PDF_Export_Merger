@@ -1,0 +1,66 @@
+# =========================
+# Python cache & artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.venv/
+env/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# PDF output files
+# (merged / compressed results)
+# =========================
+output/
+merged/
+compressed/
+*.pdf
+
+# Uncomment if you want to track sample PDFs
+# !samples/*.pdf
+
+# =========================
+# Input folders (optional)
+# =========================
+input/
+temp/
+
+# =========================
+# Windows specific
+# =========================
+Thumbs.db
+desktop.ini
+
+
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS generated
+# =========================
+.DS_Store
